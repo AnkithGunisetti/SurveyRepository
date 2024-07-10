@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Thank You Page</title>
+<link rel="icon" href="/images/TW.png" type="image/png">
 </head>
 <body>
 <h1>Thank You For Your Response</h1>

@@ -1,21 +1,3 @@
-/**
- * 
- */
-
- function toggleForm() {
-    var attendedYes = document.getElementById("attended_yes");
-    var attendedNo = document.getElementById("attended_no");
-    var formAttended = document.getElementById("form_attended");
-    var formNotAttended = document.getElementById("form_not_attended");
-
-    if (attendedYes.checked) {
-        formAttended.style.display = "block";
-        formNotAttended.style.display = "none";
-    } else if (attendedNo.checked) {
-        formAttended.style.display = "none";
-        formNotAttended.style.display = "block";
-    }
-}
 
 $(document).ready(function() {
             // jQuery code to manipulate the DOM

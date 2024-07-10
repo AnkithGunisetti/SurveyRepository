@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="icon" href="/images/TW.png" type="image/png">
 <title>Already Submitted</title>
 </head>
 <body>

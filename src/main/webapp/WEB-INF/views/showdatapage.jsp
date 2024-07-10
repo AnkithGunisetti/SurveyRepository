@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/TW.png" type="image/png">
     <title>Show Data</title>
     
     <!-- Bootstrap CSS -->
@@ -14,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
     <!-- Custom CSS for additional styling -->
-	<link href="<c:url value="/resources/css/styles.css" />" rel="stylesheet">
+	<link href="<c:url value="/css/styles.css" />" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-4">
@@ -76,7 +77,7 @@
     </div>
 
     <!-- JavaScript to handle Excel export -->
- 	 <script src="<c:url value="/resources/js/scripts.js" />"></script>
+ 	 <script src="<c:url value="/js/scripts.js" />"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 </body>

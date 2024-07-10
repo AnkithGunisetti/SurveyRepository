@@ -1,11 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/images/TW.png" type="image/png">
 <title>Event Feedback Form</title>
 <style>
 #form_attended, #form_not_attended {
@@ -85,7 +87,7 @@
     <input type="submit" value="Submit Not Attended Feedback" id="submitNotAttended">
 </form:form>
 
-<script src="<c:url value="/resources/js/getEmployeeScript.js" />"></script>
+<script src="<c:url value="/js/getEmployeeScript.js" />"></script>
 </body>
 
 </html>
