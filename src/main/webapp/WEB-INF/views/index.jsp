@@ -85,7 +85,7 @@
     <input type="submit" value="Submit Not Attended Feedback" id="submitNotAttended">
 </form:form>
 
-
+<script src="<c:url value="/resources/js/getEmployeeScript.js" />"></script>
 </body>
 
 </html>
