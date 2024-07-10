@@ -68,7 +68,7 @@ $(document).ready(function() {
                         	}
                         	else{
                         		$("#employee_id").prop('readonly',false);
-                        		window.location.href = 'http://localhost:9000/already';
+                        		window.location.href = 'https://surveyrepository-production.up.railway.app/already';
                         	}
                     	},
                     	error: function() {
